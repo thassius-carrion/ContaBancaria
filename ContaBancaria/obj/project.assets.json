@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\thassius.oliveira\\.nuget\\packages\\": {}
+    "C:\\Users\\thass\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\local\\ContaBancaria2\\ContaBancaria\\ContaBancaria.csproj",
+      "projectUniqueName": "D:\\dev\\ContaBancaria\\ContaBancaria\\ContaBancaria.csproj",
       "projectName": "ContaBancaria",
-      "projectPath": "C:\\dev\\local\\ContaBancaria2\\ContaBancaria\\ContaBancaria.csproj",
-      "packagesPath": "C:\\Users\\thassius.oliveira\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\local\\ContaBancaria2\\ContaBancaria\\obj\\",
+      "projectPath": "D:\\dev\\ContaBancaria\\ContaBancaria\\ContaBancaria.csproj",
+      "packagesPath": "C:\\Users\\thass\\.nuget\\packages\\",
+      "outputPath": "D:\\dev\\ContaBancaria\\ContaBancaria\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\thassius.oliveira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\thass\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

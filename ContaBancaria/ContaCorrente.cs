@@ -2,28 +2,24 @@
 
 namespace ContaBancaria
 {
-    class ContaCorrente
+    class ContaCorrente : IConta
     {
-        private double FaturaMensalTotal;
+        public int Agencia { get; }
+        public int Numero { get; }
+        public double Saldo { get; set; }
 
-        public ContaCorrente()
+        public ContaCorrente(int Agencia, int Numero)
         {
-            this.FaturaMensalTotal = 0;
+            this.Agencia = Agencia;
+            this.Numero = Numero;
+            this.Saldo = 0;
         }
 
-        public void Debito(double Valor)
+        public void Pagar(ITipoPagamento Tipo, double Valor)
         {
-            FaturaMensalTotal += Valor;
+          this.Saldo =- Tipo.Pagar(Valor);
         }
 
-        public void Credito(double Valor)
-        {
-            FaturaMensalTotal += Valor;
-        }
 
-        public double FechamentoMes()
-        {
-            return FaturaMensalTotal + Imposto.CalculoImposto(FaturaMensalTotal);
-        }
     }
 }
