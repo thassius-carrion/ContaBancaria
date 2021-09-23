@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace ContaBancaria
 {
-    class PagamentoDebito : ITipoPagamento
+    class PagamentoCredito : ITipoPagamento
     {
-        private double TaxaDebito = 0.01; 
+        private double TaxaCredito = 0.02; 
         public double TaxaSaida(double Valor)
         {
-            return Valor * TaxaDebito;
+            return Valor * TaxaCredito;
         }
     }
 }

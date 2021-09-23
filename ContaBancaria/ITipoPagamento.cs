@@ -8,8 +8,6 @@ namespace ContaBancaria
 {
     interface ITipoPagamento
     {
-       // public int Valor { get; }
-
-        public double Pagar(double Valor);
+           double TaxaSaida(double Valor);
     }
 }

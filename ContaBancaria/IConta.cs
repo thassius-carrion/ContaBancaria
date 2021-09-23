@@ -11,5 +11,9 @@ namespace ContaBancaria
         int Agencia { get; }
         int Numero { get; }
         double Saldo { get; }
+
+        void Saida(ITipoPagamento Tipo, double Valor);
+
+        void Entrada(double Valor);
     }
 }
