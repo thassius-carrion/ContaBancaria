@@ -33,7 +33,7 @@ namespace ContaBancaria
         public void FechamentoDeMes()
         {
             var FaturaMensal = ContaService.FechamentoDeMes(GastoTotal);
-            Console.WriteLine("Fatura Mensal: " + FaturaMensal.ToString("C"));
+            Console.WriteLine("Fatura Mensal incluindo Imposto: " + FaturaMensal.ToString("C"));
         }
     }
 }
